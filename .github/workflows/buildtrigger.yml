@@ -1,6 +1,6 @@
 on:
   push:
-    branches: ["pipeline"]
+    branches: ["main"]
 jobs:
   triggerBuild:
     runs-on: ubuntu-latest
