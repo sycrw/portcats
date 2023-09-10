@@ -47,6 +47,12 @@
         "descriptionSource": "chat.openai.com"
     },
     {
+        "port": 9050,
+        "application": "TOR",
+        "imgsrc": "https://yt3.googleusercontent.com/Hs6TAMg9aeN5b5QUwpzl9A39xwKpgyqmWBIvPVQB5S4gj2FUzjBW4m7U_mdqUs9lYxqIBeIw9uQ=s900-c-k-c0x00ffffff-no-rj",
+        "descriptionSource": "chat.openai.com"   
+    },
+    {
         "port": 25565,
         "application": "MINECRAFT JAVA SERVER",
         "imgsrc": "https://staticg.sportskeeda.com/editor/2021/09/52043-16322919251881-800.jpg",
