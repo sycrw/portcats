@@ -1,7 +1,7 @@
-import { useQuery } from "@tanstack/react-query";
 import { getInfo } from "../data";
+import { useQuery } from "@tanstack/react-query";
 
-const home = () => {
+const Home = () => {
   const { data: ports, isFetched } = useQuery({
     queryFn: getInfo,
     queryKey: ["ports"],
@@ -15,4 +15,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;
