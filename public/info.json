@@ -41,15 +41,21 @@
         "imgsrc": "https://i.ytimg.com/vi/uk1o0WobbfU/maxresdefault.jpg"
     },
     {
+        "port": 5432,
+        "application": "POSTGRESQL",
+        "imgsrc": "https://i.imgur.com/Nylcd.jpg",
+        "descriptionSource": "chat.openai.com"
+    },
+    {
         "port": 25565,
         "application": "MINECRAFT JAVA SERVER",
         "imgsrc": "https://staticg.sportskeeda.com/editor/2021/09/52043-16322919251881-800.jpg",
         "descriptionSource": "chat.openai.com"
     },
     {
-        "port": 5432,
-        "application": "POSTGRESQL",
-        "imgsrc": "https://i.imgur.com/Nylcd.jpg",
-        "descriptionSource": "chat.openai.com"
+        "port": 19132,
+        "application": "MINECRAFT BEDROCK SERVER",
+        "imgsrc": "https://media.distractify.com/brand-img/KSQW0jf4x/2160x1130/black-cat-minecraft-1657663259254.jpg",
+        "descriptionSource": "chat.openai.com / github copilot"
     }
 ]
