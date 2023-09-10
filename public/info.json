@@ -1,13 +1,49 @@
 [
     {
-        "port": 22,
-        "application": "SSH",
-        "imgsrc": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg",
-        "descriptionSource": "CHAD GPT"
+        "port": 1,
+        "application": "TCPMUX",
+        "imgsrc": "https://www.vodafone.co.uk/newscentre/app/uploads/2019/12/cat-router-scaled.jpg",
+        "descriptionSource": "chat.openai.com"
     },
     {
         "port": 21,
         "application": "FTP",
-        "imgsrc": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+        "imgsrc": "https://i0.wp.com/outwardhound.com/furtropolis/wp-content/uploads/2021/06/cat.jpg",
+        "descriptionSource": "chat.openai.com"
+    },
+    {
+        "port": 22,
+        "application": "SSH",
+        "imgsrc": "https://i.redd.it/9eodck87lndy.jpg",
+        "descriptionSource": "chat.openai.com"
+    },
+    {
+        "port": 53,
+        "application": "DNS",
+        "imgsrc": "https://1.bp.blogspot.com/-nscFesxB5P0/VzoFMwz87CI/AAAAAAAAEYs/o6duXWolkhk7qn4WuDtArAxDOUjnNevzQCLcB/s1600/cat%2Band%2Bphone%2Bbooks.jpg",
+        "descriptionSource": "chat.openai.com"
+    },
+    {
+        "port": 80,
+        "application": "HTTP",
+        "imgsrc": "https://vulcanpost.com/wp-content/uploads/2018/03/Google-Tips-Feature-Image2.jpg",
+        "descriptionSource": "chat.openai.com"
+    },
+    {
+        "port": 3306,
+        "application": "MYSQL",
+        "imgsrc": "https://i.ytimg.com/vi/uk1o0WobbfU/maxresdefault.jpg"
+    },
+    {
+        "port": 25565,
+        "application": "MINECRAFT JAVA SERVER",
+        "imgsrc": "https://staticg.sportskeeda.com/editor/2021/09/52043-16322919251881-800.jpg",
+        "descriptionSource": "chat.openai.com"
+    },
+    {
+        "port": 5432,
+        "application": "POSTGRESQL",
+        "imgsrc": "https://i.imgur.com/Nylcd.jpg",
+        "descriptionSource": "chat.openai.com"
     }
 ]
