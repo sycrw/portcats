@@ -19,10 +19,27 @@ const Port = () => {
     MDIsFetched &&
     port &&
     InfoIsFetched && (
-      <div>
-        <h1>{portInfo!.application}</h1>
-        <img src={portInfo!.imgsrc} alt="cat image" />
-        <ReactMarkdown>{port}</ReactMarkdown>
+      <div className="text-center">
+        <h1 className="text-2xl">
+          PORT {portNum} - {portInfo!.application}
+        </h1>
+        <div className="w-full max-w-screen md:max-w-3xl p-2 md:mx-auto">
+          <img
+            src={portInfo!.imgsrc}
+            alt="cat image"
+            className="w-full my-10 rounded-xl"
+          />
+          <div className="md text-left break-words">
+            <ReactMarkdown>{port}</ReactMarkdown>
+          </div>
+          {/* source */}
+          {portInfo!.descriptionSource && (
+            <div className="text-left mt-2">
+              {" "}
+              Source{portInfo!.descriptionSource}
+            </div>
+          )}
+        </div>
       </div>
     )
   );

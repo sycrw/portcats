@@ -6,12 +6,21 @@ interface PortInfoProps {
 
 const PortInfo = ({ info }: PortInfoProps) => {
   return (
-    <div className="m-4 rounded-lg ">
-      <div className=" flex justify-between items-center bg-blue-200 dark:bg-blue-600 p-2">
-        <h1 className="text-2xl font-bold">{info.application}</h1>
-        <p>Port: {info.port}</p>
+    <div className="card card-compact m-4 bg-base-100 shadow-xl">
+      <figure>
+        <img src={info.imgsrc} alt={info.application} />
+      </figure>
+      <div className="card-body">
+        <div className="flex justify-between p-4">
+          <h2 className="card-title">{info.application}</h2>
+          <h2 className="card-title">Port: {info.port}</h2>
+        </div>
+        <div className="items-center justify-center w-full">
+          <a href={`/${info.port}`} className="btn btn-primary btn-block">
+            See More
+          </a>
+        </div>
       </div>
-      <img src={info.imgsrc} alt="cat image" />
     </div>
   );
 };

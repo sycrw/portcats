@@ -1,3 +1,35 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/*generate classes for h1, h2, h3, h4, h5, h6, li, ul ... p for markdown*/
+
+.md > h1 {
+  @apply text-3xl font-bold mb-4; 
+}
+.md > h2 {
+  @apply text-2xl font-bold mb-3;
+}
+.md > h3 {
+  @apply text-xl font-bold mb-2;
+}
+.md > h4 {
+  @apply text-lg font-bold mb-2;
+}
+.md > h5 {
+  @apply text-base font-bold mb-1;
+}
+.md > h6 {
+  @apply text-sm font-bold mb-1;
+}
+.md > p {
+  @apply text-base mb-1;
+}
+.md > ul {
+  @apply list-disc list-inside;
+}
+.md > ol {
+  @apply list-decimal list-inside;
+}
+.md > li {
+  @apply mb-2;
+}
