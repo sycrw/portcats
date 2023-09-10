@@ -8,5 +8,10 @@
         "port": 21,
         "application": "FTP",
         "imgsrc": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+    },
+    {
+        "port": 69420,
+        "application": "HEHEHEHA",
+        "imgsrc": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
     }
 ]
