@@ -8,9 +8,9 @@ This is a project that aims to provide information about the ports that are used
 
 ## How does it work?
 
-This Project is a Simple React App created with vite. It uses React Router, TailwindCSS MarkdownToJSX. We don't use any backend, so all the data is stored in markdown and JSON files:
+This Project is a Simple React App created with vite. It uses React Router, TailwindCSS and ReactMarkdown. We don't use any backend, so all the data is stored in statically served markdown and JSON files:
 
-On the index page all the data ist loated from info.json. It contains an array of objects, which contain the information about the ports:
+On the index page all the data ist loated from info.json. It contains an array of objects, which contains the information about the ports:
 
 ```JSON
     {
@@ -21,7 +21,7 @@ On the index page all the data ist loated from info.json. It contains an array o
     },
 ```
 
-The pages about each port are also generated with the info.json, but get additional information from the markdown files in the public folder. The markdown files are named after the port number. For example: 80.md
+The pages about each port are also generated with the info.json also using additional information from the markdown files in the public folder. The markdown files are named after the port number. For example: 80.md
 
 ## How to contribute?
 

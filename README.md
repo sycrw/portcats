@@ -1,7 +1,11 @@
-# Portcats
-Do you know [http cats](https://http.cat)? Yes its the same just for ports!
+# Port Cats
+
+Do you know [http cats](https://http.cat)? Port Cats its the same just for ports!
+
 ## Contribute!
-Please feel free to add more ports! Just read the contributing gidelines and open a pr!
+
+[read about how to contribute HERE](/docs/index.md)
+
 ## Authors
-[Luis Carilla](https://github.com/lcarilla); [@Tim Kausemann](https://github.com/sycrw)
-## Find more in the [docs](/docs/index.md)!
+
+[@Luis Carilla](https://github.com/lcarilla); [@Tim Kausemann](https://github.com/sycrw)
