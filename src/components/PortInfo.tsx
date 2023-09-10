@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Info } from "../dto";
 
 interface PortInfoProps {
@@ -21,9 +22,9 @@ const PortInfo = ({ info }: PortInfoProps) => {
           <h2 className="card-title">Port: {info.port}</h2>
         </div>
         <div className="items-center justify-center w-full">
-          <a href={`/${info.port}`} className="btn btn-primary btn-block">
+          <Link to={`/${info.port}`} className="btn btn-primary btn-block">
             See More
-          </a>
+          </Link>
         </div>
       </div>
     </div>

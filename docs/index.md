@@ -26,3 +26,7 @@ The pages about each port are also generated with the info.json also using addit
 ## How to contribute?
 
 We need your help, since their are so many ports out there. If you want to add a port, you can follow the steps in the [CONTRIBUTING.md](CONTRIBUTING.md) file, and use [this PR template](pull_request_template.md) to add a new port. If your PR was merged, you can check the status of the build in [Jenkins](https://jenkins.raspi.timkausemann.de/job/portcats/).
+
+## Good to know
+
+- How to setup dev environment: [SETUP.md](SETUP.md)
