@@ -18,7 +18,6 @@ pipeline {
       steps {
         script {
           def dockerImage = docker.build( registry + '/' + imageName, '.' )
-          env.DOCKER_IMAGE_ID = dockerImage.id
         }
       }
     }
@@ -26,7 +25,7 @@ pipeline {
       steps {
         script {
           docker.withRegistry( "https://" + registry, credentialsId ) {
-            docker.image(env.DOCKER_IMAGE_ID).push()
+            docker.image(registry + '/' + imageName).push()
           }
         }
       }
