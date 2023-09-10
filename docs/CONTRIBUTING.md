@@ -9,4 +9,9 @@
 
 ## ADDING A NEW FEATURE
 
-If you have a feature request/idea, you can open up an issue or just implement the feature and create a PR
+1. Fork the repository
+2. Create a new branch
+3. Add your feature
+4. Open a PR
+5. Wait for the PR to be merged
+6. Your feature is now on portcats.me! (You can check the status of the build in Jenkins Link)
