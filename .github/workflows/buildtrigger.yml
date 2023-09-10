@@ -5,4 +5,4 @@ jobs:
   triggerBuild:
     runs-on: ubuntu-latest
     run: |
-    curl -v "https://$JENKINS_USER:$JENKINS_PASSWORD@jenkins.raspi.timkausemann.de/job/portcats/build?token=$JENKINS_TOKEN"
+      curl -v "https://$JENKINS_USER:$JENKINS_PASSWORD@jenkins.raspi.timkausemann.de/job/portcats/build?token=$JENKINS_TOKEN"
