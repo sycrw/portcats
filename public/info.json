@@ -30,6 +30,12 @@
         "descriptionSource": "chat.openai.com"
     },
     {
+        "port": 443,
+        "application": "HTTPS",
+        "imgsrc": "https://t3.ftcdn.net/jpg/01/17/78/78/360_F_117787853_X61bsWpVNNuDNB2prI2FpkuM6DxL93FX.jpg",
+        "descriptionSource": "https://github.com/features/copilot"
+    },
+    {
         "port": 3306,
         "application": "MYSQL",
         "imgsrc": "https://i.ytimg.com/vi/uk1o0WobbfU/maxresdefault.jpg"
