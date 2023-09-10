@@ -8,7 +8,12 @@ const PortInfo = ({ info }: PortInfoProps) => {
   return (
     <div className="card card-compact m-4 bg-base-100 shadow-xl">
       <figure>
-        <img src={info.imgsrc} alt={info.application} />
+        {/* image always same size */}
+        <img
+          src={info.imgsrc}
+          alt="cat image"
+          className="w-full aspect-video object-cover"
+        />
       </figure>
       <div className="card-body">
         <div className="flex justify-between p-4">

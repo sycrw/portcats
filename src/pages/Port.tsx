@@ -36,7 +36,7 @@ const Port = () => {
           {portInfo!.descriptionSource && (
             <div className="text-left mt-2">
               {" "}
-              Source{portInfo!.descriptionSource}
+              Source: {portInfo!.descriptionSource}
             </div>
           )}
         </div>
