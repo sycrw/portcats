@@ -3,9 +3,8 @@ import {
   createBrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom";
-
-import Home from "./pages/Home";
 import Port from "./pages/Port";
+import Home from "./pages/Home";
 
 export const Router = createBrowserRouter(
   createRoutesFromElements([
