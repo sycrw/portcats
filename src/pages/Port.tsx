@@ -1,6 +1,7 @@
 import { getInfoByPort, getMDByPort } from "../data";
 
 import ReactMarkdown from "react-markdown";
+import { useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { useQuery } from "@tanstack/react-query";
 
@@ -14,6 +15,17 @@ const Port = () => {
     queryFn: () => getInfoByPort(Number(portNum)),
     queryKey: ["portInfo", portNum],
   });
+  useEffect(() => {
+    if (portInfo) {
+      {
+        const title = `Port Cats | ${portInfo!.application} [${portNum}]`;
+        document.title = title;
+      }
+    } else {
+      document.title = `Port Cats | ${portNum}`;
+    }
+  }, [portInfo, portNum]);
+
   console.log(port);
   return (
     MDIsFetched &&

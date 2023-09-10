@@ -1,5 +1,6 @@
 import PortInfo from "../components/PortInfo";
 import { getInfo } from "../data";
+import { useEffect } from "react";
 import { useQuery } from "@tanstack/react-query";
 
 const Home = () => {
@@ -7,6 +8,10 @@ const Home = () => {
     queryFn: getInfo,
     queryKey: ["ports"],
   });
+  useEffect(() => {
+    document.title = "Port Cats | Home";
+  }, []);
+
   return (
     isFetched &&
     ports && (
