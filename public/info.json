@@ -2,7 +2,8 @@
     {
         "port": 22,
         "application": "SSH",
-        "imgsrc": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+        "imgsrc": "https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg",
+        "descriptionSource": "CHAD GPT"
     },
     {
         "port": 21,

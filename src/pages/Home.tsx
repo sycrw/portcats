@@ -1,3 +1,4 @@
+import PortInfo from "../components/PortInfo";
 import { getInfo } from "../data";
 import { useQuery } from "@tanstack/react-query";
 
@@ -8,10 +9,17 @@ const Home = () => {
   });
   return (
     isFetched &&
-    ports &&
-    ports.map((p) => {
-      return <h1 key={p.port}>{JSON.stringify(p)}</h1>;
-    })
+    ports && (
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {ports
+          .sort((a, b) => {
+            return a.port - b.port;
+          })
+          .map((p) => {
+            return <PortInfo key={p.port} info={p} />;
+          })}
+      </div>
+    )
   );
 };
 
