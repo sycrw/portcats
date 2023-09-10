@@ -6,7 +6,7 @@ pipeline {
   environment {
     registry = "registry.raspi.timkausemann.de"
     credentialsId = "1"
-    imageName = "bloatstream-int"
+    imageName = "portcats"
   }
   stages {
     stage('Checkout') {
@@ -17,15 +17,16 @@ pipeline {
     stage('Build') {
       steps {
         script {
-          docker.build( registry + '/' + imageName, '.' )
+          def dockerImage = docker.build( registry + '/' + imageName, '.' )
+          env.DOCKER_IMAGE_ID = dockerImage.id
         }
       }
     }
     stage('Push') {
       steps {
         script {
-          docker.withRegistry( "registry.raspi.timkausemann.de", credentialsId ) {
-            dockerImage.push()
+          docker.withRegistry( "https://" + registry, credentialsId ) {
+            docker.image(env.DOCKER_IMAGE_ID).push()
           }
         }
       }
