@@ -18,6 +18,12 @@
         "descriptionSource": "chat.openai.com"
     },
     {
+        "port": 37,
+        "application":"TIME-Protokoll",
+        "imgsrc":"https://media.tenor.com/yz_7VcX0WjYAAAAd/cat-changing-the-clock-changing-the-time.gif",
+        "descriptionSource":"chat.openai.com"
+    },
+    {
         "port": 53,
         "application": "DNS",
         "imgsrc": "https://1.bp.blogspot.com/-nscFesxB5P0/VzoFMwz87CI/AAAAAAAAEYs/o6duXWolkhk7qn4WuDtArAxDOUjnNevzQCLcB/s1600/cat%2Band%2Bphone%2Bbooks.jpg",
