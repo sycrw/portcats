@@ -6,6 +6,18 @@
         "descriptionSource": "chat.openai.com"
     },
     {
+        "port": 7,
+        "application": "ECHO PROTOCOL",
+        "imgsrc": "https://media.tenor.com/4XWXcwGkvswAAAAd/cat-mirror.gif",
+        "descriptionSource": "chat.openai.com"
+    },
+    {
+        "port": 17,
+        "application": "QOTD",
+        "imgsrc": "https://cdn.mos.cms.futurecdn.net/aN9JwfJCgBwxuGz9gpG89i-970-80.jpg.webp",
+        "descriptionSource": "https://en.wikipedia.org/wiki/QOTD"
+    },
+    {
         "port": 21,
         "application": "FTP",
         "imgsrc": "https://i0.wp.com/outwardhound.com/furtropolis/wp-content/uploads/2021/06/cat.jpg",
@@ -19,9 +31,9 @@
     },
     {
         "port": 37,
-        "application":"TIME-Protokoll",
-        "imgsrc":"https://media.tenor.com/yz_7VcX0WjYAAAAd/cat-changing-the-clock-changing-the-time.gif",
-        "descriptionSource":"chat.openai.com"
+        "application": "TIME-Protokoll",
+        "imgsrc": "https://media.tenor.com/yz_7VcX0WjYAAAAd/cat-changing-the-clock-changing-the-time.gif",
+        "descriptionSource": "chat.openai.com"
     },
     {
         "port": 53,
@@ -56,7 +68,7 @@
         "port": 9050,
         "application": "TOR",
         "imgsrc": "https://yt3.googleusercontent.com/Hs6TAMg9aeN5b5QUwpzl9A39xwKpgyqmWBIvPVQB5S4gj2FUzjBW4m7U_mdqUs9lYxqIBeIw9uQ=s900-c-k-c0x00ffffff-no-rj",
-        "descriptionSource": "chat.openai.com"   
+        "descriptionSource": "chat.openai.com"
     },
     {
         "port": 25565,
@@ -69,5 +81,11 @@
         "application": "MINECRAFT BEDROCK SERVER",
         "imgsrc": "https://media.distractify.com/brand-img/KSQW0jf4x/2160x1130/black-cat-minecraft-1657663259254.jpg",
         "descriptionSource": "chat.openai.com / github copilot"
+    },
+    {
+        "port": 27017,
+        "application": "MongoDB",
+        "imgsrc": "https://images-ext-2.discordapp.net/external/jN_yEVOSDtUI-BC3dg2UM2C8JvGP5auddpSKAd6A_co/https/thekidshouldseethis.com/wp-content/uploads/2019/11/cats-in-boxes-03.jpg?width=1106&height=603",
+        "descriptionSource": "chat.openai.com"
     }
 ]
