@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="navbar bg-base-100">
       <div className="flex-1">
         <Link className="btn btn-ghost normal-case text-xl" to="/">
-          Port Cats
+          Port Cats :-)
         </Link>
       </div>
       <div className="flex-none gap-2">
